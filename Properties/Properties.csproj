@@ -4,18 +4,19 @@
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>Properties</Title>
         <Authors>Jeff Wilgus</Authors>
         <Description>The Properties library provides a facility for dynamically attaching new attributes to objects.</Description>
         <Copyright>Jeff Wilgus</Copyright>
-        <PackageProjectUrl>https://github.com/jeffrey-w/Properties</PackageProjectUrl>
+        <PackageProjectUrl>https://jeffrey-w.github.io/Properties/</PackageProjectUrl>
         <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
-        <RepositoryUrl>https://github.com/jeffrey-w/Properties</RepositoryUrl>
+        <RepositoryUrl>https://github.com/jeffrey-w/Properties/</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageIcon>logo.png</PackageIcon>
         <PackageReadmeFile>README.md</PackageReadmeFile>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
     </PropertyGroup>
 
     <ItemGroup>
