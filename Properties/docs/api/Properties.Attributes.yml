@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Properties.Attributes
+  commentId: N:Properties.Attributes
+  id: Properties.Attributes
+  children:
+  - Properties.Attributes.PropertyAttachmentAttribute
+  - Properties.Attributes.PropertyUsageAttribute
+  langs:
+  - csharp
+  - vb
+  name: Properties.Attributes
+  nameWithType: Properties.Attributes
+  fullName: Properties.Attributes
+  type: Namespace
+  assemblies:
+  - Properties
+references:
+- uid: Properties.Attributes.PropertyAttachmentAttribute
+  commentId: T:Properties.Attributes.PropertyAttachmentAttribute
+  href: Properties.Attributes.PropertyAttachmentAttribute.html
+  name: PropertyAttachmentAttribute
+  nameWithType: PropertyAttachmentAttribute
+  fullName: Properties.Attributes.PropertyAttachmentAttribute
+- uid: Properties.Attributes.PropertyUsageAttribute
+  commentId: T:Properties.Attributes.PropertyUsageAttribute
+  href: Properties.Attributes.PropertyUsageAttribute.html
+  name: PropertyUsageAttribute
+  nameWithType: PropertyUsageAttribute
+  fullName: Properties.Attributes.PropertyUsageAttribute

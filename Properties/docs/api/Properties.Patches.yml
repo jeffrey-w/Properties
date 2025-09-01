@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Properties.Patches
+  commentId: N:Properties.Patches
+  id: Properties.Patches
+  children:
+  - Properties.Patches.Patch
+  langs:
+  - csharp
+  - vb
+  name: Properties.Patches
+  nameWithType: Properties.Patches
+  fullName: Properties.Patches
+  type: Namespace
+  assemblies:
+  - Properties
+references:
+- uid: Properties.Patches.Patch
+  commentId: T:Properties.Patches.Patch
+  parent: Properties.Patches
+  href: Properties.Patches.Patch.html
+  name: Patch
+  nameWithType: Patch
+  fullName: Properties.Patches.Patch
+- uid: Properties.Patches
+  commentId: N:Properties.Patches
+  href: Properties.html
+  name: Properties.Patches
+  nameWithType: Properties.Patches
+  fullName: Properties.Patches
+  spec.csharp:
+  - uid: Properties
+    name: Properties
+    href: Properties.html
+  - name: .
+  - uid: Properties.Patches
+    name: Patches
+    href: Properties.Patches.html
+  spec.vb:
+  - uid: Properties
+    name: Properties
+    href: Properties.html
+  - name: .
+  - uid: Properties.Patches
+    name: Patches
+    href: Properties.Patches.html

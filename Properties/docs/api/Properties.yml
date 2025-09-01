@@ -1,0 +1,90 @@
+### YamlMime:ManagedReference
+items:
+- uid: Properties
+  commentId: N:Properties
+  id: Properties
+  children:
+  - Properties.BasePropertyDictionary`1
+  - Properties.IPropertyDictionary`1
+  - Properties.Property
+  - Properties.Value
+  langs:
+  - csharp
+  - vb
+  name: Properties
+  nameWithType: Properties
+  fullName: Properties
+  type: Namespace
+  assemblies:
+  - Properties
+references:
+- uid: Properties.Property
+  commentId: T:Properties.Property
+  parent: Properties
+  href: Properties.Property.html
+  name: Property
+  nameWithType: Property
+  fullName: Properties.Property
+- uid: Properties.IPropertyDictionary`1
+  commentId: T:Properties.IPropertyDictionary`1
+  href: Properties.IPropertyDictionary-1.html
+  name: IPropertyDictionary<T>
+  nameWithType: IPropertyDictionary<T>
+  fullName: Properties.IPropertyDictionary<T>
+  nameWithType.vb: IPropertyDictionary(Of T)
+  fullName.vb: Properties.IPropertyDictionary(Of T)
+  name.vb: IPropertyDictionary(Of T)
+  spec.csharp:
+  - uid: Properties.IPropertyDictionary`1
+    name: IPropertyDictionary
+    href: Properties.IPropertyDictionary-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Properties.IPropertyDictionary`1
+    name: IPropertyDictionary
+    href: Properties.IPropertyDictionary-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Properties.BasePropertyDictionary`1
+  commentId: T:Properties.BasePropertyDictionary`1
+  href: Properties.BasePropertyDictionary-1.html
+  name: BasePropertyDictionary<T>
+  nameWithType: BasePropertyDictionary<T>
+  fullName: Properties.BasePropertyDictionary<T>
+  nameWithType.vb: BasePropertyDictionary(Of T)
+  fullName.vb: Properties.BasePropertyDictionary(Of T)
+  name.vb: BasePropertyDictionary(Of T)
+  spec.csharp:
+  - uid: Properties.BasePropertyDictionary`1
+    name: BasePropertyDictionary
+    href: Properties.BasePropertyDictionary-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Properties.BasePropertyDictionary`1
+    name: BasePropertyDictionary
+    href: Properties.BasePropertyDictionary-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Properties.Value
+  commentId: T:Properties.Value
+  parent: Properties
+  href: Properties.Value.html
+  name: Value
+  nameWithType: Value
+  fullName: Properties.Value
+- uid: Properties
+  commentId: N:Properties
+  href: Properties.html
+  name: Properties
+  nameWithType: Properties
+  fullName: Properties

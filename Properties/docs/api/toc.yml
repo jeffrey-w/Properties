@@ -1,0 +1,49 @@
+### YamlMime:TableOfContent
+items:
+- uid: Properties
+  name: Properties
+  type: Namespace
+  items:
+  - uid: Properties.BasePropertyDictionary`1
+    name: BasePropertyDictionary<T>
+    type: Class
+  - uid: Properties.IPropertyDictionary`1
+    name: IPropertyDictionary<T>
+    type: Interface
+  - uid: Properties.Property
+    name: Property
+    type: Class
+  - uid: Properties.Value
+    name: Value
+    type: Struct
+- uid: Properties.Attributes
+  name: Properties.Attributes
+  type: Namespace
+  items:
+  - uid: Properties.Attributes.PropertyAttachmentAttribute
+    name: PropertyAttachmentAttribute
+    type: Class
+  - uid: Properties.Attributes.PropertyUsageAttribute
+    name: PropertyUsageAttribute
+    type: Class
+- uid: Properties.Patches
+  name: Properties.Patches
+  type: Namespace
+  items:
+  - uid: Properties.Patches.Patch
+    name: Patch
+    type: Class
+- uid: Properties.Tests
+  name: Properties.Tests
+  type: Namespace
+  items:
+  - uid: Properties.Tests.PropertyDictionaryTests
+    name: PropertyDictionaryTests
+    type: Class
+  - uid: Properties.Tests.TestPropertyDictionary
+    name: TestPropertyDictionary
+    type: Class
+  - uid: Properties.Tests.ValueTests
+    name: ValueTests
+    type: Class
+memberLayout: SamePage

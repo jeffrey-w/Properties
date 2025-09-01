@@ -1,0 +1,520 @@
+### YamlMime:ManagedReference
+items:
+- uid: Properties.IPropertyDictionary`1
+  commentId: T:Properties.IPropertyDictionary`1
+  id: IPropertyDictionary`1
+  parent: Properties
+  children:
+  - Properties.IPropertyDictionary`1.Diff(`0)
+  - Properties.IPropertyDictionary`1.HasProperty(System.String)
+  - Properties.IPropertyDictionary`1.Item(System.String)
+  - Properties.IPropertyDictionary`1.Properties
+  - Properties.IPropertyDictionary`1.WithProperty(System.String,Properties.Value)
+  - Properties.IPropertyDictionary`1.WithoutProperty(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IPropertyDictionary<T>
+  nameWithType: IPropertyDictionary<T>
+  fullName: Properties.IPropertyDictionary<T>
+  type: Interface
+  source:
+    id: IPropertyDictionary
+    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    startLine: 10
+  assemblies:
+  - Properties
+  namespace: Properties
+  summary: >-
+    The <code>IPropertyDictionary</code> interface provides properties and operations on
+
+    an entity that exhibits arbitrary <xref href="Properties.Property?text=attributes" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public interface IPropertyDictionary<T> where T : IPropertyDictionary<T>'
+    typeParameters:
+    - id: T
+      description: The natural type of this <code>IPropertyDictionary</code>.
+    content.vb: Public Interface IPropertyDictionary(Of T As IPropertyDictionary(Of T))
+  nameWithType.vb: IPropertyDictionary(Of T)
+  fullName.vb: Properties.IPropertyDictionary(Of T)
+  name.vb: IPropertyDictionary(Of T)
+- uid: Properties.IPropertyDictionary`1.Item(System.String)
+  commentId: P:Properties.IPropertyDictionary`1.Item(System.String)
+  id: Item(System.String)
+  parent: Properties.IPropertyDictionary`1
+  langs:
+  - csharp
+  - vb
+  name: this[string]
+  nameWithType: IPropertyDictionary<T>.this[string]
+  fullName: Properties.IPropertyDictionary<T>.this[string]
+  type: Property
+  source:
+    id: this[]
+    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    startLine: 23
+  assemblies:
+  - Properties
+  namespace: Properties
+  summary: >-
+    Provides the <xref href="Properties.Value" data-throw-if-not-resolved="false"></xref> associated with the specified
+
+    <xref href="Properties.Property" data-throw-if-not-resolved="false"></xref> <code class="paramref">name</code>, or the
+
+    <xref href="Properties.Value.Empty?text=empty+value" data-throw-if-not-resolved="false"></xref> if this <code>IPropertyDictionary</code>
+
+    contains no such association.
+  example: []
+  syntax:
+    content: Value this[string name] { get; }
+    parameters:
+    - id: name
+      type: System.String
+      description: The identifier for the queried <xref href="Properties.Property" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: Properties.Value
+      description: >-
+        The <xref href="Properties.Value" data-throw-if-not-resolved="false"></xref> associated with the <xref href="Properties.Property" data-throw-if-not-resolved="false"></xref> by the
+
+        specified <code class="paramref">name</code>.
+    content.vb: ReadOnly Default Property this[](name As String) As Value
+  overload: Properties.IPropertyDictionary`1.Item*
+  nameWithType.vb: IPropertyDictionary(Of T).this[](String)
+  fullName.vb: Properties.IPropertyDictionary(Of T).this[](String)
+  name.vb: this[](String)
+- uid: Properties.IPropertyDictionary`1.Properties
+  commentId: P:Properties.IPropertyDictionary`1.Properties
+  id: Properties
+  parent: Properties.IPropertyDictionary`1
+  langs:
+  - csharp
+  - vb
+  name: Properties
+  nameWithType: IPropertyDictionary<T>.Properties
+  fullName: Properties.IPropertyDictionary<T>.Properties
+  type: Property
+  source:
+    id: Properties
+    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    startLine: 29
+  assemblies:
+  - Properties
+  namespace: Properties
+  summary: >-
+    The <xref href="Properties.Property?text=attributes" data-throw-if-not-resolved="false"></xref> associated with this
+
+    <code>IPropertyDictionary</code>.
+  example: []
+  syntax:
+    content: IEnumerable<Property> Properties { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{Properties.Property}
+    content.vb: ReadOnly Property Properties As IEnumerable(Of [Property])
+  overload: Properties.IPropertyDictionary`1.Properties*
+  nameWithType.vb: IPropertyDictionary(Of T).Properties
+  fullName.vb: Properties.IPropertyDictionary(Of T).Properties
+- uid: Properties.IPropertyDictionary`1.HasProperty(System.String)
+  commentId: M:Properties.IPropertyDictionary`1.HasProperty(System.String)
+  id: HasProperty(System.String)
+  parent: Properties.IPropertyDictionary`1
+  langs:
+  - csharp
+  - vb
+  name: HasProperty(string)
+  nameWithType: IPropertyDictionary<T>.HasProperty(string)
+  fullName: Properties.IPropertyDictionary<T>.HasProperty(string)
+  type: Method
+  source:
+    id: HasProperty
+    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    startLine: 40
+  assemblies:
+  - Properties
+  namespace: Properties
+  summary: >-
+    Determines whether this <code>IPropertyDictionary</code> is associated with a
+
+    <xref href="Properties.Property" data-throw-if-not-resolved="false"></xref> by the specified <code class="paramref">name</code>.
+  example: []
+  syntax:
+    content: bool HasProperty(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The identifier for the queried <xref href="Properties.Property" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: System.Boolean
+      description: >-
+        <code>true</code> if this <code>IPropertyDictionary</code> exhibits a
+
+        <xref href="Properties.Property" data-throw-if-not-resolved="false"></xref> with the specified <code class="paramref">name</code>.
+    content.vb: Function HasProperty(name As String) As Boolean
+  overload: Properties.IPropertyDictionary`1.HasProperty*
+  nameWithType.vb: IPropertyDictionary(Of T).HasProperty(String)
+  fullName.vb: Properties.IPropertyDictionary(Of T).HasProperty(String)
+  name.vb: HasProperty(String)
+- uid: Properties.IPropertyDictionary`1.WithProperty(System.String,Properties.Value)
+  commentId: M:Properties.IPropertyDictionary`1.WithProperty(System.String,Properties.Value)
+  id: WithProperty(System.String,Properties.Value)
+  parent: Properties.IPropertyDictionary`1
+  langs:
+  - csharp
+  - vb
+  name: WithProperty(string, Value)
+  nameWithType: IPropertyDictionary<T>.WithProperty(string, Value)
+  fullName: Properties.IPropertyDictionary<T>.WithProperty(string, Properties.Value)
+  type: Method
+  source:
+    id: WithProperty
+    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    startLine: 53
+  assemblies:
+  - Properties
+  namespace: Properties
+  summary: >-
+    Provides a new <code>IPropertyDictionary</code> with the same attributes as this one,
+
+    in addition to the <xref href="Properties.Property" data-throw-if-not-resolved="false"></xref> by the specified
+
+    <code class="paramref">name</code> associated with the specified
+
+    <code class="paramref">value</code>.
+  example: []
+  syntax:
+    content: T WithProperty(string name, Value value)
+    parameters:
+    - id: name
+      type: System.String
+      description: The identifier for the <xref href="Properties.Property" data-throw-if-not-resolved="false"></xref> to include.
+    - id: value
+      type: Properties.Value
+      description: The data associated with the <xref href="Properties.Property" data-throw-if-not-resolved="false"></xref> to include.
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: Function WithProperty(name As String, value As Value) As T
+  overload: Properties.IPropertyDictionary`1.WithProperty*
+  nameWithType.vb: IPropertyDictionary(Of T).WithProperty(String, Value)
+  fullName.vb: Properties.IPropertyDictionary(Of T).WithProperty(String, Properties.Value)
+  name.vb: WithProperty(String, Value)
+- uid: Properties.IPropertyDictionary`1.WithoutProperty(System.String)
+  commentId: M:Properties.IPropertyDictionary`1.WithoutProperty(System.String)
+  id: WithoutProperty(System.String)
+  parent: Properties.IPropertyDictionary`1
+  langs:
+  - csharp
+  - vb
+  name: WithoutProperty(string)
+  nameWithType: IPropertyDictionary<T>.WithoutProperty(string)
+  fullName: Properties.IPropertyDictionary<T>.WithoutProperty(string)
+  type: Method
+  source:
+    id: WithoutProperty
+    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    startLine: 62
+  assemblies:
+  - Properties
+  namespace: Properties
+  summary: >-
+    Provides a new <code>IPropertyDictionary</code> with the same attributes as this one,
+
+    except without the <xref href="Properties.Property" data-throw-if-not-resolved="false"></xref> with the specified
+
+    <code class="paramref">name</code>.
+  example: []
+  syntax:
+    content: T WithoutProperty(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The identifier for the <xref href="Properties.Property" data-throw-if-not-resolved="false"></xref> to exclude.
+    return:
+      type: '{T}'
+      description: A new <code>IPropertyDictionary</code>.
+    content.vb: Function WithoutProperty(name As String) As T
+  overload: Properties.IPropertyDictionary`1.WithoutProperty*
+  nameWithType.vb: IPropertyDictionary(Of T).WithoutProperty(String)
+  fullName.vb: Properties.IPropertyDictionary(Of T).WithoutProperty(String)
+  name.vb: WithoutProperty(String)
+- uid: Properties.IPropertyDictionary`1.Diff(`0)
+  commentId: M:Properties.IPropertyDictionary`1.Diff(`0)
+  id: Diff(`0)
+  parent: Properties.IPropertyDictionary`1
+  langs:
+  - csharp
+  - vb
+  name: Diff(T)
+  nameWithType: IPropertyDictionary<T>.Diff(T)
+  fullName: Properties.IPropertyDictionary<T>.Diff(T)
+  type: Method
+  source:
+    id: Diff
+    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    startLine: 71
+  assemblies:
+  - Properties
+  namespace: Properties
+  summary: >-
+    Provides the <xref href="Properties.Patches.Patch" data-throw-if-not-resolved="false"></xref> that defines the changes to the
+
+    <code class="paramref">other</code> <code>IPropertyDictionary</code> necessary to obtain this
+
+    one.
+  example: []
+  syntax:
+    content: Patch Diff(T other)
+    parameters:
+    - id: other
+      type: '{T}'
+      description: The <code>IPropertyDictionary</code> to compare this one to.
+    return:
+      type: Properties.Patches.Patch
+      description: A new <xref href="Properties.Patches.Patch" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Function Diff(other As T) As Patch
+  overload: Properties.IPropertyDictionary`1.Diff*
+  nameWithType.vb: IPropertyDictionary(Of T).Diff(T)
+  fullName.vb: Properties.IPropertyDictionary(Of T).Diff(T)
+references:
+- uid: Properties.Property
+  commentId: T:Properties.Property
+  parent: Properties
+  href: Properties.Property.html
+  name: Property
+  nameWithType: Property
+  fullName: Properties.Property
+- uid: Properties
+  commentId: N:Properties
+  href: Properties.html
+  name: Properties
+  nameWithType: Properties
+  fullName: Properties
+- uid: Properties.Value
+  commentId: T:Properties.Value
+  parent: Properties
+  href: Properties.Value.html
+  name: Value
+  nameWithType: Value
+  fullName: Properties.Value
+- uid: Properties.Value.Empty
+  commentId: F:Properties.Value.Empty
+  href: Properties.Value.html#Properties_Value_Empty
+  name: Empty
+  nameWithType: Value.Empty
+  fullName: Properties.Value.Empty
+- uid: Properties.IPropertyDictionary`1.Item*
+  commentId: Overload:Properties.IPropertyDictionary`1.Item
+  href: Properties.IPropertyDictionary-1.html#Properties_IPropertyDictionary_1_Item_System_String_
+  name: this
+  nameWithType: IPropertyDictionary<T>.this
+  fullName: Properties.IPropertyDictionary<T>.this
+  nameWithType.vb: IPropertyDictionary(Of T).this[]
+  fullName.vb: Properties.IPropertyDictionary(Of T).this[]
+  name.vb: this[]
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Properties.IPropertyDictionary`1.Properties*
+  commentId: Overload:Properties.IPropertyDictionary`1.Properties
+  href: Properties.IPropertyDictionary-1.html#Properties_IPropertyDictionary_1_Properties
+  name: Properties
+  nameWithType: IPropertyDictionary<T>.Properties
+  fullName: Properties.IPropertyDictionary<T>.Properties
+  nameWithType.vb: IPropertyDictionary(Of T).Properties
+  fullName.vb: Properties.IPropertyDictionary(Of T).Properties
+- uid: System.Collections.Generic.IEnumerable{Properties.Property}
+  commentId: T:System.Collections.Generic.IEnumerable{Properties.Property}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Property>
+  nameWithType: IEnumerable<Property>
+  fullName: System.Collections.Generic.IEnumerable<Properties.Property>
+  nameWithType.vb: IEnumerable(Of Property)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Properties.Property)
+  name.vb: IEnumerable(Of Property)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: Properties.Property
+    name: Property
+    href: Properties.Property.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Properties.Property
+    name: Property
+    href: Properties.Property.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Properties.IPropertyDictionary`1.HasProperty*
+  commentId: Overload:Properties.IPropertyDictionary`1.HasProperty
+  href: Properties.IPropertyDictionary-1.html#Properties_IPropertyDictionary_1_HasProperty_System_String_
+  name: HasProperty
+  nameWithType: IPropertyDictionary<T>.HasProperty
+  fullName: Properties.IPropertyDictionary<T>.HasProperty
+  nameWithType.vb: IPropertyDictionary(Of T).HasProperty
+  fullName.vb: Properties.IPropertyDictionary(Of T).HasProperty
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Properties.IPropertyDictionary`1.WithProperty*
+  commentId: Overload:Properties.IPropertyDictionary`1.WithProperty
+  href: Properties.IPropertyDictionary-1.html#Properties_IPropertyDictionary_1_WithProperty_System_String_Properties_Value_
+  name: WithProperty
+  nameWithType: IPropertyDictionary<T>.WithProperty
+  fullName: Properties.IPropertyDictionary<T>.WithProperty
+  nameWithType.vb: IPropertyDictionary(Of T).WithProperty
+  fullName.vb: Properties.IPropertyDictionary(Of T).WithProperty
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Properties.IPropertyDictionary`1.WithoutProperty*
+  commentId: Overload:Properties.IPropertyDictionary`1.WithoutProperty
+  href: Properties.IPropertyDictionary-1.html#Properties_IPropertyDictionary_1_WithoutProperty_System_String_
+  name: WithoutProperty
+  nameWithType: IPropertyDictionary<T>.WithoutProperty
+  fullName: Properties.IPropertyDictionary<T>.WithoutProperty
+  nameWithType.vb: IPropertyDictionary(Of T).WithoutProperty
+  fullName.vb: Properties.IPropertyDictionary(Of T).WithoutProperty
+- uid: Properties.Patches.Patch
+  commentId: T:Properties.Patches.Patch
+  parent: Properties.Patches
+  href: Properties.Patches.Patch.html
+  name: Patch
+  nameWithType: Patch
+  fullName: Properties.Patches.Patch
+- uid: Properties.IPropertyDictionary`1.Diff*
+  commentId: Overload:Properties.IPropertyDictionary`1.Diff
+  href: Properties.IPropertyDictionary-1.html#Properties_IPropertyDictionary_1_Diff__0_
+  name: Diff
+  nameWithType: IPropertyDictionary<T>.Diff
+  fullName: Properties.IPropertyDictionary<T>.Diff
+  nameWithType.vb: IPropertyDictionary(Of T).Diff
+  fullName.vb: Properties.IPropertyDictionary(Of T).Diff
+- uid: Properties.Patches
+  commentId: N:Properties.Patches
+  href: Properties.html
+  name: Properties.Patches
+  nameWithType: Properties.Patches
+  fullName: Properties.Patches
+  spec.csharp:
+  - uid: Properties
+    name: Properties
+    href: Properties.html
+  - name: .
+  - uid: Properties.Patches
+    name: Patches
+    href: Properties.Patches.html
+  spec.vb:
+  - uid: Properties
+    name: Properties
+    href: Properties.html
+  - name: .
+  - uid: Properties.Patches
+    name: Patches
+    href: Properties.Patches.html

@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: Properties.Tests
+  commentId: N:Properties.Tests
+  id: Properties.Tests
+  children:
+  - Properties.Tests.PropertyDictionaryTests
+  - Properties.Tests.TestPropertyDictionary
+  - Properties.Tests.ValueTests
+  langs:
+  - csharp
+  - vb
+  name: Properties.Tests
+  nameWithType: Properties.Tests
+  fullName: Properties.Tests
+  type: Namespace
+  assemblies:
+  - Properties.Tests
+references:
+- uid: Properties.Tests.PropertyDictionaryTests
+  commentId: T:Properties.Tests.PropertyDictionaryTests
+  href: Properties.Tests.PropertyDictionaryTests.html
+  name: PropertyDictionaryTests
+  nameWithType: PropertyDictionaryTests
+  fullName: Properties.Tests.PropertyDictionaryTests
+- uid: Properties.Tests.TestPropertyDictionary
+  commentId: T:Properties.Tests.TestPropertyDictionary
+  parent: Properties.Tests
+  href: Properties.Tests.TestPropertyDictionary.html
+  name: TestPropertyDictionary
+  nameWithType: TestPropertyDictionary
+  fullName: Properties.Tests.TestPropertyDictionary
+- uid: Properties.Tests.ValueTests
+  commentId: T:Properties.Tests.ValueTests
+  href: Properties.Tests.ValueTests.html
+  name: ValueTests
+  nameWithType: ValueTests
+  fullName: Properties.Tests.ValueTests
+- uid: Properties.Tests
+  commentId: N:Properties.Tests
+  href: Properties.html
+  name: Properties.Tests
+  nameWithType: Properties.Tests
+  fullName: Properties.Tests
+  spec.csharp:
+  - uid: Properties
+    name: Properties
+    href: Properties.html
+  - name: .
+  - uid: Properties.Tests
+    name: Tests
+    href: Properties.Tests.html
+  spec.vb:
+  - uid: Properties
+    name: Properties
+    href: Properties.html
+  - name: .
+  - uid: Properties.Tests
+    name: Tests
+    href: Properties.Tests.html
