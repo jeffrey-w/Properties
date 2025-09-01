@@ -19,8 +19,12 @@ items:
   fullName: Properties.IPropertyDictionary<T>
   type: Interface
   source:
+    remote:
+      path: Properties/src/PropertyDictionary.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: IPropertyDictionary
-    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    path: ../src/PropertyDictionary.cs
     startLine: 10
   assemblies:
   - Properties
@@ -51,8 +55,12 @@ items:
   fullName: Properties.IPropertyDictionary<T>.this[string]
   type: Property
   source:
+    remote:
+      path: Properties/src/PropertyDictionary.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: this[]
-    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    path: ../src/PropertyDictionary.cs
     startLine: 23
   assemblies:
   - Properties
@@ -95,8 +103,12 @@ items:
   fullName: Properties.IPropertyDictionary<T>.Properties
   type: Property
   source:
+    remote:
+      path: Properties/src/PropertyDictionary.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: Properties
-    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    path: ../src/PropertyDictionary.cs
     startLine: 29
   assemblies:
   - Properties
@@ -127,8 +139,12 @@ items:
   fullName: Properties.IPropertyDictionary<T>.HasProperty(string)
   type: Method
   source:
+    remote:
+      path: Properties/src/PropertyDictionary.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: HasProperty
-    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    path: ../src/PropertyDictionary.cs
     startLine: 40
   assemblies:
   - Properties
@@ -167,8 +183,12 @@ items:
   fullName: Properties.IPropertyDictionary<T>.WithProperty(string, Properties.Value)
   type: Method
   source:
+    remote:
+      path: Properties/src/PropertyDictionary.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: WithProperty
-    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    path: ../src/PropertyDictionary.cs
     startLine: 53
   assemblies:
   - Properties
@@ -211,8 +231,12 @@ items:
   fullName: Properties.IPropertyDictionary<T>.WithoutProperty(string)
   type: Method
   source:
+    remote:
+      path: Properties/src/PropertyDictionary.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: WithoutProperty
-    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    path: ../src/PropertyDictionary.cs
     startLine: 62
   assemblies:
   - Properties
@@ -250,8 +274,12 @@ items:
   fullName: Properties.IPropertyDictionary<T>.Diff(T)
   type: Method
   source:
+    remote:
+      path: Properties/src/PropertyDictionary.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: Diff
-    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    path: ../src/PropertyDictionary.cs
     startLine: 71
   assemblies:
   - Properties

@@ -16,8 +16,12 @@ items:
   fullName: Properties.Attributes.PropertyUsageAttribute
   type: Class
   source:
+    remote:
+      path: Properties/src/Attributes/PropertyUsageAttribute.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: PropertyUsageAttribute
-    path: /home/jeff/Repos/Properties/Properties/src/Attributes/PropertyUsageAttribute.cs
+    path: ../src/Attributes/PropertyUsageAttribute.cs
     startLine: 21
   assemblies:
   - Properties
@@ -112,8 +116,12 @@ items:
   fullName: Properties.Attributes.PropertyUsageAttribute.PropertyUsageAttribute(System.Type, params string[])
   type: Constructor
   source:
+    remote:
+      path: Properties/src/Attributes/PropertyUsageAttribute.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: .ctor
-    path: /home/jeff/Repos/Properties/Properties/src/Attributes/PropertyUsageAttribute.cs
+    path: ../src/Attributes/PropertyUsageAttribute.cs
     startLine: 21
   assemblies:
   - Properties
@@ -164,8 +172,12 @@ items:
   fullName: Properties.Attributes.PropertyUsageAttribute.Type
   type: Property
   source:
+    remote:
+      path: Properties/src/Attributes/PropertyUsageAttribute.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: Type
-    path: /home/jeff/Repos/Properties/Properties/src/Attributes/PropertyUsageAttribute.cs
+    path: ../src/Attributes/PropertyUsageAttribute.cs
     startLine: 28
   assemblies:
   - Properties
@@ -194,8 +206,12 @@ items:
   fullName: Properties.Attributes.PropertyUsageAttribute.Names
   type: Property
   source:
+    remote:
+      path: Properties/src/Attributes/PropertyUsageAttribute.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: Names
-    path: /home/jeff/Repos/Properties/Properties/src/Attributes/PropertyUsageAttribute.cs
+    path: ../src/Attributes/PropertyUsageAttribute.cs
     startLine: 34
   assemblies:
   - Properties

@@ -4,6 +4,7 @@ items:
   commentId: N:Properties.Patches
   id: Properties.Patches
   children:
+  - Properties.Patches.Diff
   - Properties.Patches.Patch
   langs:
   - csharp
@@ -15,6 +16,12 @@ items:
   assemblies:
   - Properties
 references:
+- uid: Properties.Patches.Diff
+  commentId: T:Properties.Patches.Diff
+  href: Properties.Patches.Diff.html
+  name: Diff
+  nameWithType: Diff
+  fullName: Properties.Patches.Diff
 - uid: Properties.Patches.Patch
   commentId: T:Properties.Patches.Patch
   parent: Properties.Patches

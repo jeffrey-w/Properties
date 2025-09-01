@@ -16,8 +16,12 @@ items:
   fullName: Properties.Attributes.PropertyAttachmentAttribute
   type: Class
   source:
+    remote:
+      path: Properties/src/Attributes/PropertyAttachmentAttribute.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: PropertyAttachmentAttribute
-    path: /home/jeff/Repos/Properties/Properties/src/Attributes/PropertyAttachmentAttribute.cs
+    path: ../src/Attributes/PropertyAttachmentAttribute.cs
     startLine: 22
   assemblies:
   - Properties
@@ -108,8 +112,12 @@ items:
   fullName: Properties.Attributes.PropertyAttachmentAttribute.PropertyAttachmentAttribute(System.Type, params string[])
   type: Constructor
   source:
+    remote:
+      path: Properties/src/Attributes/PropertyAttachmentAttribute.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: .ctor
-    path: /home/jeff/Repos/Properties/Properties/src/Attributes/PropertyAttachmentAttribute.cs
+    path: ../src/Attributes/PropertyAttachmentAttribute.cs
     startLine: 22
   assemblies:
   - Properties
@@ -152,8 +160,12 @@ items:
   fullName: Properties.Attributes.PropertyAttachmentAttribute.Type
   type: Property
   source:
+    remote:
+      path: Properties/src/Attributes/PropertyAttachmentAttribute.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: Type
-    path: /home/jeff/Repos/Properties/Properties/src/Attributes/PropertyAttachmentAttribute.cs
+    path: ../src/Attributes/PropertyAttachmentAttribute.cs
     startLine: 29
   assemblies:
   - Properties
@@ -182,8 +194,12 @@ items:
   fullName: Properties.Attributes.PropertyAttachmentAttribute.Names
   type: Property
   source:
+    remote:
+      path: Properties/src/Attributes/PropertyAttachmentAttribute.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: Names
-    path: /home/jeff/Repos/Properties/Properties/src/Attributes/PropertyAttachmentAttribute.cs
+    path: ../src/Attributes/PropertyAttachmentAttribute.cs
     startLine: 36
   assemblies:
   - Properties

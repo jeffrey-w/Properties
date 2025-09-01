@@ -22,8 +22,12 @@ items:
   fullName: Properties.BasePropertyDictionary<T>
   type: Class
   source:
+    remote:
+      path: Properties/src/PropertyDictionary.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: BasePropertyDictionary
-    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    path: ../src/PropertyDictionary.cs
     startLine: 79
   assemblies:
   - Properties
@@ -41,8 +45,6 @@ items:
     content.vb: Public MustInherit Class BasePropertyDictionary(Of T As IPropertyDictionary(Of T)) Implements IPropertyDictionary(Of T)
   inheritance:
   - System.Object
-  derivedClasses:
-  - Properties.Tests.TestPropertyDictionary
   implements:
   - Properties.IPropertyDictionary{{T}}
   inheritedMembers:
@@ -68,8 +70,12 @@ items:
   fullName: Properties.BasePropertyDictionary<T>.this[string]
   type: Property
   source:
+    remote:
+      path: Properties/src/PropertyDictionary.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: this[]
-    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    path: ../src/PropertyDictionary.cs
     startLine: 82
   assemblies:
   - Properties
@@ -114,8 +120,12 @@ items:
   fullName: Properties.BasePropertyDictionary<T>.BasePropertyDictionary(System.Collections.Immutable.ImmutableDictionary<string, Properties.Property>)
   type: Constructor
   source:
+    remote:
+      path: Properties/src/PropertyDictionary.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: .ctor
-    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    path: ../src/PropertyDictionary.cs
     startLine: 96
   assemblies:
   - Properties
@@ -150,8 +160,12 @@ items:
   fullName: Properties.BasePropertyDictionary<T>.Properties
   type: Property
   source:
+    remote:
+      path: Properties/src/PropertyDictionary.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: Properties
-    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    path: ../src/PropertyDictionary.cs
     startLine: 102
   assemblies:
   - Properties
@@ -184,8 +198,12 @@ items:
   fullName: Properties.BasePropertyDictionary<T>.HasProperty(string)
   type: Method
   source:
+    remote:
+      path: Properties/src/PropertyDictionary.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: HasProperty
-    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    path: ../src/PropertyDictionary.cs
     startLine: 108
   assemblies:
   - Properties
@@ -226,8 +244,12 @@ items:
   fullName: Properties.BasePropertyDictionary<T>.WithProperty(string, Properties.Value)
   type: Method
   source:
+    remote:
+      path: Properties/src/PropertyDictionary.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: WithProperty
-    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    path: ../src/PropertyDictionary.cs
     startLine: 114
   assemblies:
   - Properties
@@ -272,8 +294,12 @@ items:
   fullName: Properties.BasePropertyDictionary<T>.WithoutProperty(string)
   type: Method
   source:
+    remote:
+      path: Properties/src/PropertyDictionary.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: WithoutProperty
-    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    path: ../src/PropertyDictionary.cs
     startLine: 127
   assemblies:
   - Properties
@@ -313,8 +339,12 @@ items:
   fullName: Properties.BasePropertyDictionary<T>.Diff(T)
   type: Method
   source:
+    remote:
+      path: Properties/src/PropertyDictionary.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: Diff
-    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    path: ../src/PropertyDictionary.cs
     startLine: 133
   assemblies:
   - Properties
@@ -353,8 +383,12 @@ items:
   fullName: Properties.BasePropertyDictionary<T>.WithProperties(System.Collections.Immutable.ImmutableDictionary<string, Properties.Property>)
   type: Method
   source:
+    remote:
+      path: Properties/src/PropertyDictionary.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: WithProperties
-    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    path: ../src/PropertyDictionary.cs
     startLine: 148
   assemblies:
   - Properties
@@ -395,8 +429,12 @@ items:
   fullName: Properties.BasePropertyDictionary<T>.ApplyToProperties(System.Func<System.Collections.Immutable.ImmutableDictionary<string, Properties.Property>, T>)
   type: Method
   source:
+    remote:
+      path: Properties/src/PropertyDictionary.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: ApplyToProperties
-    path: /home/jeff/Repos/Properties/Properties/src/PropertyDictionary.cs
+    path: ../src/PropertyDictionary.cs
     startLine: 161
   assemblies:
   - Properties

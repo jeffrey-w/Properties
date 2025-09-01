@@ -18,8 +18,12 @@ items:
   fullName: Properties.Property
   type: Class
   source:
+    remote:
+      path: Properties/src/Property.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: Property
-    path: /home/jeff/Repos/Properties/Properties/src/Property.cs
+    path: ../src/Property.cs
     startLine: 8
   assemblies:
   - Properties
@@ -53,8 +57,12 @@ items:
   fullName: Properties.Property.Name
   type: Property
   source:
+    remote:
+      path: Properties/src/Property.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: Name
-    path: /home/jeff/Repos/Properties/Properties/src/Property.cs
+    path: ../src/Property.cs
     startLine: 17
   assemblies:
   - Properties
@@ -80,8 +88,12 @@ items:
   fullName: Properties.Property.Value
   type: Property
   source:
+    remote:
+      path: Properties/src/Property.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: Value
-    path: /home/jeff/Repos/Properties/Properties/src/Property.cs
+    path: ../src/Property.cs
     startLine: 20
   assemblies:
   - Properties
@@ -107,8 +119,12 @@ items:
   fullName: Properties.Property.Payload
   type: Property
   source:
+    remote:
+      path: Properties/src/Property.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: Payload
-    path: /home/jeff/Repos/Properties/Properties/src/Property.cs
+    path: ../src/Property.cs
     startLine: 26
   assemblies:
   - Properties
@@ -137,8 +153,12 @@ items:
   fullName: Properties.Property.Make(string, Properties.Value)
   type: Method
   source:
+    remote:
+      path: Properties/src/Property.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: Make
-    path: /home/jeff/Repos/Properties/Properties/src/Property.cs
+    path: ../src/Property.cs
     startLine: 42
   assemblies:
   - Properties
@@ -187,8 +207,12 @@ items:
   fullName: Properties.Property.Deconstruct(out string, out Properties.Value)
   type: Method
   source:
+    remote:
+      path: Properties/src/Property.cs
+      branch: main
+      repo: git@github.com:jeffrey-w/Properties.git
     id: Deconstruct
-    path: /home/jeff/Repos/Properties/Properties/src/Property.cs
+    path: ../src/Property.cs
     startLine: 50
   assemblies:
   - Properties

@@ -30,20 +30,10 @@ items:
   name: Properties.Patches
   type: Namespace
   items:
+  - uid: Properties.Patches.Diff
+    name: Diff
+    type: Class
   - uid: Properties.Patches.Patch
     name: Patch
-    type: Class
-- uid: Properties.Tests
-  name: Properties.Tests
-  type: Namespace
-  items:
-  - uid: Properties.Tests.PropertyDictionaryTests
-    name: PropertyDictionaryTests
-    type: Class
-  - uid: Properties.Tests.TestPropertyDictionary
-    name: TestPropertyDictionary
-    type: Class
-  - uid: Properties.Tests.ValueTests
-    name: ValueTests
     type: Class
 memberLayout: SamePage
